@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  events.connector.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+    ports:
+      - "47586:80"
