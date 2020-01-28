@@ -6,4 +6,7 @@
     <UserSecretsId>e68e032e-e62c-4253-9faf-894875824aed</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Serilog.AspNetCore" Version="3.2.0" />
+  </ItemGroup>
 </Project>
